@@ -1,0 +1,181 @@
+
+/*Big tablets to 1200px (width smaller than 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+/*Small tablets to big tablets: from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+   .main-nav{display: none;}
+   section{padding: 50px 10px;}
+   header{padding: 40px 10px;}
+   .last-nav{
+       margin-right: 5px;
+       margin-left: auto;
+    }
+    html,
+    body{font-size: 18px;}
+    .cate{
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+    .newico{
+        width: 15%;
+        margin: 0 1.3%;
+    }
+    .view:link{
+        margin: auto 0 auto 40%;
+    }
+    .btn a img{
+        width: 40%;
+        height: 40px;
+    }
+    .foot{
+        padding: 50px 10px 40px 10px;
+        margin-top: -8px;
+    }
+    
+    
+}
+
+
+/*Small phones and small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    html,
+    body{font-size: 16px;}
+    header{
+      height: 500px;
+      padding-bottom: 0;
+    }
+    .heading{
+      margin-top: 120px;
+      text-align: left;      
+     }
+    .heading br{display: none;}
+    .search{
+      width: 70%;
+      margin: 60px auto;
+    }
+    .newico{
+        width: 80%;
+        font-size: 200%;
+        margin: 20px 38%;     
+    }
+    .newico:first-of-type{ margin: 20px 38%;}
+    .list-rest{
+        width: 100%;
+        margin-bottom: 40px;
+        box-shadow: 1px 12px 20px  #4e4e4e49;
+        padding: 30px 20px;
+        border-radius: 10px;
+    }
+    .list-rest img{
+        height: 250px;
+    }
+    .view:link{
+        margin: auto 30%;
+    }
+    .mission{
+        width: 100%;
+        margin-bottom: -10px;
+        padding: 30px 20px;
+    }
+    .mission h3{
+        text-align: center;
+        font-size: 150%;
+    }
+    .phones,
+    .details{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .details{margin-top: 20px;}
+    .downloads{
+        padding: 0 20px;
+    }
+    .details h2{
+        text-align: center;
+    }
+}
+
+
+/*Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    html,
+    body{font-size: 16px;}
+    header{
+      height: 500px;
+      padding-bottom: 0;
+    }
+    .heading{
+      margin-top: 120px;
+      text-align: left;      
+     }
+    .heading br{display: none;}
+    .search{
+      width: 90%;
+      margin: 60px auto;
+    }
+    #search{width: 60%;}
+    .newico{
+        width: 60%;
+        font-size: 200%;
+        margin: 20px 30%;     
+    }
+    .newico:first-of-type{ 
+        width: 60%;
+        margin: 20px 30%;
+    }
+    .list-rest{
+        width: 100%;
+        margin-bottom: 40px;
+        box-shadow: 1px 12px 20px  #4e4e4e49;
+        padding: 30px 20px;
+        border-radius: 10px;
+    }
+    .list-rest img{
+        height: 250px;
+    }
+    .view:link{
+        font-size: 80%;
+        margin: auto 32%;
+        padding: 10px 30px;
+    }
+    .mission{
+        width: 100%;
+        margin-bottom: -10px;
+        padding: 30px 20px;
+    }
+    .mission h3{
+        text-align: center;
+        font-size: 150%;
+    }
+    .phone1{
+        margin: 20px auto;
+        width: 70%;
+    }
+    .phone2{display: none;}
+    .phones,
+    .details{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .details{margin-top: 20px;}
+    .downloads{
+        padding: 0 20px;
+    }
+    .details h2{
+        text-align: center;
+    }
+    .upperfoot{
+        height: 158px;
+        width: 50%;
+        padding: 10px;
+    }
+    .lolast{padding: 10px ;}
+}
+
+  
+
+

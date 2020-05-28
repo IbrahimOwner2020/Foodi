@@ -1,0 +1,400 @@
+/*-----------------------------------------*/
+/*------DEFAUlt----------------*/
+/*-----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:  'lato' ,Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+/*-------mostly used------*/
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.sechead{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0;
+}
+section p{
+    color: #5c5c5c;
+    font-size: 95%;
+}
+hr{
+    height: 3px;
+    width: 100vw;
+    background-color: #e4e4e4;
+    border: none;
+}
+/*-----------------------------------------*/
+/*------HEADER----------------*/
+/*-----------------------------------------*/
+header{
+    background-image: linear-gradient(#00000091,#00000091),url(img/foodbackground.jpeg);
+    height: 580px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 30px 0 10px 0;
+}
+.nav{
+    display: flex;
+}
+.logo span{
+    font-size: 150%;
+    font-weight: 900;
+}
+.main-nav ul{
+    display: flex; 
+    list-style: none;  
+    margin-left: 50px; 
+}
+.main-nav ul li{
+    margin-right: 40px;
+    margin-top: 3px;
+}
+.main-nav ul li a:link,
+.main-nav ul li a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 70%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+.main-nav ul li a:hover,
+.main-nav ul li a:active{
+    color: #ff9100;
+    border-bottom: 1px solid #ff9100;
+}
+.last-nav{
+    margin-left: 340px;
+}
+.last-nav a:link,
+.last-nav a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: all 0.3s;
+}
+.last-nav a:hover,
+.last-nav a:active{
+    background-color: #ff9100;
+    border: 1px solid #ff9100;
+}
+.heading{
+    text-align: center;
+    margin-top: 175px;
+}
+.heading p{
+    font-size: 90%;
+    line-height: 145%;
+}
+.search{
+    width: 50%;
+    margin-top: 35px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #272727;
+    margin-left: 25%;
+    padding-left: 0px;
+}
+#search{
+    width: 65%;
+    border-style: none;
+    padding: 10px 2px;
+    border-right: 2px solid #cccccc;
+    height: 100%;
+}
+.search span{
+    color: #fff;
+    background-color: #ff9100;
+    display: inline-block;
+    padding: 13px 15px 13px 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px; 
+    margin-left: -25px;   
+}
+.search i{
+    font-size: 120%;
+    padding: 9px 2px;
+}
+/*-----------------------------------------*/
+/*------CATEGORY----------------*/
+/*-----------------------------------------*/
+.cate{
+    margin-top: 50px;
+}
+.newico{
+    width: fit-content;
+    display: grid;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 90px 0 0;
+}
+.newico:last-of-type{margin-right: -90px;}
+.newico i{
+    font-size: 200%;
+    padding: 30px 25px;
+    border-radius: 50%;
+    background-color: #ffc4b1b4;
+    margin-bottom: 20px;
+}
+.newico span{
+    font-size: 80%;
+}
+/*-----------------------------------------*/
+/*------TOP 5----------------*/
+/*-----------------------------------------*/
+.restaurants{
+    margin: 40px 0 70px 0;
+}
+.list-rest{
+    width: 33%;
+    padding: 0 20px;
+    margin: 0;
+    text-align: center;
+}
+.list-rest img{
+    width: 100%;
+    height: 200px;
+    border-radius: 40px;
+}
+.list-rest h3{
+    font-size: 85%;
+    margin: 15px 0;
+}
+.list-rest p{
+    font-size: 80%;
+    color: #5c5c5c;
+    padding: 0 10px;
+}
+.view:link,
+.view:visited{
+    text-decoration: none;
+    margin: 10% 39% 10% 41%;
+    font-size: 90%;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #ff9100;
+    padding: 15px 60px;
+    transition: all 0.3s;
+}
+.view:hover,
+.view:active{
+    color: #000;
+    background-color: #ff7b00;
+}
+/*-----------------------------------------*/
+/*------MISSION--------------*/
+/*-----------------------------------------*/
+.mission{
+    margin-top: 60px;
+    padding: 0 5px;
+}
+.mission h3{
+    font-size: 90%;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.mission p{
+    padding-right: 20px;
+}
+.mission img{
+    width: 100%;
+    height: 230px;
+    margin-top: 30px;
+}
+/*-----------------------------------------*/
+/*------DOWNLOAD--------------*/
+/*-----------------------------------------*/
+.download{
+    background-color: #ebebeb77;
+    padding: 0;
+}
+.phone1,
+.phone2{
+    width: 45%;
+    border: 10px solid #000;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: none;
+    height: 350px;
+    margin: 60px 10px 0 10px;
+    position: relative;
+}
+.phone1{
+    border: 10px solid #fff;
+    border-bottom: none;
+}
+.phone1 img,
+.phone2 img{
+    width: 100%;
+    height: 150px;
+    opacity: 0.7;
+}
+.phone1 img{
+    height: 240px;
+}
+.phone1 h5{
+    position: absolute;
+    top: 100px;
+    left: 4px;
+    font-size: 110%;
+}
+.phone2 p{
+    display: inline-block;
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: #fff;
+    font-size: 70%;
+    margin: 10px 15px;
+}
+.pic img{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #14141486;
+}
+.pic{
+    padding-left: 10px;
+}
+.sep{
+    position: absolute;
+    top: 240px;
+    left: 4px;
+    font-size: 50%;
+    color: #7a7a7a;
+}
+.i1{
+    position: absolute;
+    top: 30px;
+    left: 4px;
+}
+.i2{
+    position: absolute;
+    top: 30px;
+    right: 4px;
+}
+.i3{
+    position: absolute;
+    top: 30px;
+    left: 4px;
+}
+.divnow{
+    display: flex;
+    margin-top: 1px;
+}
+.market{
+    font-size: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    background-color: #fff;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: #00000079;
+}
+.divnow span{
+    font-size: 70%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.divni{
+    margin: 0 8px 0 auto;
+}
+.divni i{
+    font-size: 50%;
+}
+.details{
+    margin: 160px 0 80px 0;
+    padding-left: 80px;
+}
+.btn a img{
+    height: 50px;
+    margin: 30px 20px 0 0;
+}
+/*-----------------------------------------*/
+/*------FOOTER--------------*/
+/*-----------------------------------------*/
+.foot{
+    background-color: #1f1f1f;
+    color: #fff;
+    margin-top: -23px;
+    padding: 40px 0;
+}
+.upperfoot h4 {
+    font-size: 75%;
+    color: #ff9100c9;
+    margin-bottom: 20px;
+}
+.upperfoot ul{
+    list-style: none;
+}
+.upperfoot ul li{
+    font-size: 75%;
+    margin-bottom: 10px;
+}
+.upperfoot ul li a:link,
+.upperfoot ul li a:visited{
+    text-decoration: none;
+    color: #ffffffc5;
+    transition: all 0.3s;
+}
+.upperfoot ul li a:hover,
+.upperfoot ul li a:active{
+    color: #ff9100;
+}
+.final{
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+.lofoot{
+    font-size: 60%;
+}
+.lolast ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.lolast ul li{
+    margin-left: 10px;
+}
+.lolast ul li a i{
+    font-size: 120%;
+    color: #ffffffc5;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.lolast ul li:first-of-type a i{
+    color: #ff7b00;
+}
+.lolast ul li a i:hover,
+.lolast ul li a i:active{
+    color: #ff9100;
+}
